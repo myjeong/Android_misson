@@ -13,38 +13,20 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/go_menu2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="고객관리"
             android:layout_gravity="center"
-
-            />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="매출관리"
-            android:layout_gravity="center"
-            />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="상품관리"
-            android:layout_gravity="center"
+            android:text="메뉴로"
             />
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/go_login2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="로그인 화면"
             android:layout_gravity="center"
+            android:text="로그인으로"
             />
 
     </LinearLayout>
-
 
 </RelativeLayout>

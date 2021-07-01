@@ -9,13 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuActivity"
-            android:label="메인 메뉴">
-
-        </activity>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".ProductActivity"
+            android:label="고객관리"/>
+        <activity
+            android:name=".RevenueActivity"
+            android:label="매출관리"/>
+        <activity
+            android:name=".CustomerActivity"
+            android:label="상품관리"/>
+        <activity
+            android:name=".MenuActivity"
+            android:label="메인 메뉴" />
+        <activity
+            android:name=".MainActivity"
             android:label="로그인하기">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
